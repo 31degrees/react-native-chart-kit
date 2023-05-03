@@ -329,6 +329,7 @@ class LineChart extends AbstractChart<LineChartProps, LineChartState> {
             fill="#fff"
             fillOpacity={0}
             onPress={onPress}
+            onClick={onPress}
           />,
           renderDotContent({ x: cx, y: cy, index: i, indexData: x })
         );
